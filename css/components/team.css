@@ -1,0 +1,52 @@
+.team {
+	margin: 100px 100px 50px 100px;
+}
+
+.team-members {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 35px;
+	flex-wrap: wrap;
+}
+
+.team-member {
+	text-align: center;
+	margin: 0px 50px;
+	font-size: 14px;
+	width: 300px;
+	margin-bottom: 25px;
+}
+
+.team h2 {
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+.team h3 {
+	font-size: 26px;
+	font-weight: lighter;
+}
+
+.team h4 {
+	font-size: 16px;
+	font-style: italic;
+}
+
+.team p, .team h4, .team h3 {
+	padding-top: 20px;
+}
+
+.team p {
+	padding-bottom: 20px;
+}
+
+.img-circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.fa-linkedin {
+	font-size: 35px;
+}

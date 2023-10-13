@@ -1,0 +1,77 @@
+.mission {
+	background-color: black;
+	color: white;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+	display: flex;
+	align-items: top;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+
+.mission-statement{
+    font-size: 26px;
+    line-height: 1.5;
+    width: 400px;
+    font-weight: lighter;
+}
+
+.mission-prove {
+	font-size: 16px;
+	padding-right: 120px;
+	width: 550px;
+	font-weight: lighter;
+	padding-left: 10px;
+}
+
+.mission-icons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.mission-icon-text {
+	width: 200px;
+	text-align: center;
+}
+
+.mission-icon {
+	font-size: 30px;
+}
+
+.mission-prove h2 {
+	font-size: 20px;
+	margin-bottom: 30px;
+	margin-top: 55px;
+	font-weight: lighter;
+}
+
+#mission-hecair {
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+.mission ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.mission hr {
+	height: 275px;
+	margin-top: 75px;
+}
+
+@media (max-width: 1300px) {
+	.mission hr {
+		display: none;
+	}
+}
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+.partners {
+	background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.2) 30%, rgba(0, 0, 0, 0.1) 40%), url("../../images/background.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 710px;
+	color: white;
+	padding-bottom: 30px;
+}
+
+.partners h2 {
+	margin-left: 100px;
+	padding-top: 50px;
+	text-align: center
+}
+
+.img-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 500px;
+}
+
+.partners li img {
+  width: 150px;
+  height: auto;
+  padding: 25px;
+}
+
+.partners ul {
+  list-style: none;
+}
+
+@media (max-width: 900px) {
+    .img-logos {
+        margin-top: 400px; 
+    }
+    
+    .partners li {
+        width: 50%; 
+        box-sizing: border-box;
+        text-align: center;
+        padding: 0 10px;
+    }
+    
+    .partners li img {
+        width: 50%; 
+    }
+}

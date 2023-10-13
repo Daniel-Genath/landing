@@ -1,0 +1,46 @@
+/*Importing google fonts*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lora|Robota");
+
+/*Importing components*/
+
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/mission.css");
+@import url("components/team.css");
+@import url("components/partners.css");
+@import url("components/footer.css");
+
+/*General style rules for font and colours*/
+
+body {
+	font-family: Lora, sans-serif;
+	font-size: 18px;
+	background-color: white;
+	color: black;
+	margin: 0px;
+}
+
+h1, h2, h3 {
+	font-family: Robota, serif;
+	font-size: 36px;
+}
+
+a {
+	text-decoration: none;
+	font-family: roboto, serif;
+}
+
+/*
+
+#HEC-logo {
+	position: fixed;
+	width: 60px;
+    top: 50px; 
+    left: 20px; 
+    z-index: 1000; 
+}
+
+*/
